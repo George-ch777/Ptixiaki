@@ -1,16 +1,16 @@
-#The functions of the smart home in the context of the internet of things
+## The functions of the smart home in the context of the internet of things
 
-#Description
-The main aim of this project is a systemís construction that will convert a simple house to a smart house,
+## Description
+The main aim of this project is a system‚Äôs construction that will convert a simple house to a smart house,
 with a small number of resources, environmentally friendly and affordable to the media level customer. 
-For this reason, it is constructed a main control system that ìis builtî in Node-Red application. 
-It provides basic houseís operations and allows to users to be informed and interact with the houseís operation. 
-Additionally, the user has the possibility to be informed for ìhouseís conditionî even when he is away from it, 
-because all the data are sent in real time at userís profile, in IBM platform. 
+For this reason, it is constructed a main control system that ‚Äúis built‚Äù in Node-Red application. 
+It provides basic house‚Äôs operations and allows to users to be informed and interact with the house‚Äôs operation. 
+Additionally, the user has the possibility to be informed for ‚Äúhouse‚Äôs condition‚Äù even when he is away from it, 
+because all the data are sent in real time at user‚Äôs profile, in IBM platform. 
 For this systems implementation they are used an ESP32, sensors and one Raspberry Pi, 
 where are sent all the data from ESP32 via Wi-Fi and the communication protocol MQTT. 
 Raspberry Pi has the role of the server and up on this the application operates safely. 
-At the end, for the creation of the projectís scenarios, they were chosen the C programming languages, 
+At the end, for the creation of the project‚Äôs scenarios, they were chosen the C programming languages, 
 which was developed in Arduino application and JavaScript in function toy Node-Red. 
 
 ## Installation Arduino IDE
